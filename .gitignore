@@ -1,0 +1,30 @@
+# macOS / editor noise
+.DS_Store
+*.swp
+*.swo
+
+# Python runtime artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local medical archive runtime data.
+# This repository should contain the skill code only, never real medical records.
+medical/
+metrics.db
+metrics.db-*
+*.db
+*.db-wal
+*.db-shm
+Backups/
+Raw files/
+.medical-archive-payloads/
+
+# Secrets and local environment files
+.env
+.env.*
+secrets.json
+*.pem
+*.key
